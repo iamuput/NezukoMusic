@@ -2,8 +2,11 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
+from config import SUPPORT_CHANNEL
 from Auput import app as Alya
 from pyrogram import filters, Client, enums
+from pyrogram.types import Message
+from pyrogram.types import(InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message)
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
 from typing import Union, Optional
@@ -68,19 +71,13 @@ font_path = "assets/alya.ttf"
 INFO_TEXT = """
 User Information
 
-User ID ❥︎ {}
-
-Name ❥︎ {}
-
-Username ❥︎ @{}
-
-Mention ❥︎ {}
-
-User Status ❥︎\n`{}`\n
-
-DC ID ❥︎ {}
-
-Bio ❥︎ {}
+Usᴇʀ ɪᴅ : {}
+Nᴀᴍᴇ : {}
+Usᴇʀɴᴀᴍᴇ : @{}
+Mᴇɴᴛɪᴏɴ : {}
+Usᴇʀ sᴛᴀᴛᴜs : `{}`
+Dᴄ ɪᴅ : {}
+Bɪᴏ ᴀɴᴀᴋ ᴀʟᴀʏ : {}
 """
 
 # --------------------------------------------------------------------------------- #
@@ -178,6 +175,8 @@ async def userinfo(_, message):
                 profile_path=photo,
             )
             await Alya.send_photo(chat_id, photo=welcome_photo, caption=INFO_TEXT.format(
-                id, name, username, mention, status, dc_id, bio), reply_to_message_id=message.id)
+                id, name, username, mention, status, dc_id, bio), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"Culik akuuuu><", url=f"https://t.me/{Alya.username}?startgroup=true")
+                                                                                                     ,InlineKeyboardButton(f"Channel><", url=f"{SUPPORT_CHANNEL}",)]])
+    )
         except Exception as e:
             await message.reply_text(str(e))
