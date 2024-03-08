@@ -1,0 +1,3 @@
+git pull
+rm -rf *.session*
+python3 -m Auput
