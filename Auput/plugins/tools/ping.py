@@ -8,6 +8,7 @@ from strings import get_command
 from Auput import app
 from Auput.core.call import Auput
 from Auput.utils import bot_sys_stats
+from Auput.utils.inline import supp_markup
 from Auput.utils.decorators.language import language
 
 ### Commands
@@ -31,6 +32,6 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
         _["ping_2"].format(
-            MUSIC_BOT_NAME, resp, UP, DISK, CPU, RAM, pytgping
-        )
+            MUSIC_BOT_NAME, resp, UP, DISK, CPU, RAM, pytgping),
+        reply_markup=supp_markup(_),
     )
