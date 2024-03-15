@@ -207,7 +207,7 @@ lyrics_4 : "Klik tombol ing ngisor iki lan goleki lirik kanggo ngindhari telusur
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} berfungsi baik dengan ping `{1}` md.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Klien Py-Tgcalls juga memiliki ping `{6}` ms yang bagus."
+ping_2 : "❏**Ping** `{1}` ms.\n├ **Waktu aktif** {2}\n├ **Disk** {3}.\n├ **CPU** {4}\n├ **Ram** {5}.\n╰ **Py-Tgcalls Ping** `{6}`."
 
 
 # Song
