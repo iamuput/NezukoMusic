@@ -205,7 +205,7 @@ lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "**Pong!**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
+ping_2 : "❏ **Pong!**\n`╰ {1} ms`\n\n❏<b><u> System Stats:</u></b>\n├ **Uptime** : {2} \n├ **Ram** : {4} \n├ **Cpu** : {4} \n╰ **Disk** : {3}"
 
 # Song
 song_1 : "You can download Music or Video from YouTube only in private chat. Please start me in private chat."
