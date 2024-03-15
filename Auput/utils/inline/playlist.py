@@ -1,4 +1,5 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from config import SUPPORT_GROUP
 
 
 def botplaylist_markup(_):
@@ -150,6 +151,20 @@ def close_markup(_):
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
                     callback_data="close",
+                ),
+            ]
+        ]
+    )
+    return upl
+
+
+def supp_markup(_):
+    upl = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text=_["S_B_3"],
+                    url=f"{SUPPORT_GROUP}",
                 ),
             ]
         ]
