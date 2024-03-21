@@ -30,4 +30,5 @@ youtube-search-python
 yt-dlp
 gtts
 httpx
+httpx[http2]
 gpytranslate
