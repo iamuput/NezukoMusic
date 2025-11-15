@@ -26,6 +26,25 @@ from Auput.utils.inline.playlist import botplaylist_markup
 from Auput.utils.logger import play_logs
 from Auput.utils.stream.stream import stream
 
+
+
+async def is_streamable_url(url: str) -> bool:
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.get(url, timeout=5)
+            if response.status_code == 200:
+                content_type = response.headers.get("Content-Type", "")
+                if (
+                    "application/vnd.apple.mpegurl" in content_type
+                    or "application/x-mpegURL" in content_type
+                ):
+                    return True
+                if url.endswith(".m3u8") or url.endswith(".index"):
+                    return True
+    except httpx.RequestError:
+        pass
+    return False
+
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
 
@@ -188,6 +207,17 @@ async def play_commnd(
                     plist_id = url.split("=")[1]
                 img = config.PLAYLIST_IMG_URL
                 cap = _["play_10"]
+            elif "https://youtu.be" in url:
+                videoid = url.split("/")[-1].split("?")[0]
+                details, track_id = await YouTube.track(
+                    f"https://www.youtube.com/watch?v={videoid}"
+                )
+                streamtype = "youtube"
+                img = details["thumb"]
+                cap = _["play_11"].format(
+                    details["title"],
+                    details["duration_min"],
+                )
             else:
                 try:
                     details, track_id = await YouTube.track(url)
@@ -202,23 +232,18 @@ async def play_commnd(
                 )
         elif await Spotify.valid(url):
             spotify = True
-            if (
-                not config.SPOTIFY_CLIENT_ID
-                and not config.SPOTIFY_CLIENT_SECRET
-            ):
+            if not config.SPOTIFY_CLIENT_ID and not config.SPOTIFY_CLIENT_SECRET:
                 return await mystic.edit_text(
-                    "This bot isn't able to play spotify queries. Please ask my owner to enable spotify."
+                    "<blockquote>**» This bot isn't able to play spotify queries. Please ask my owner ( @HikariOwner ) to enable spotify.**</blockquote>"
                 )
             if "track" in url:
                 try:
                     details, track_id = await Spotify.track(url)
-                except Exception:
+                except:
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "youtube"
                 img = details["thumb"]
-                cap = _["play_11"].format(
-                    details["title"], details["duration_min"]
-                )
+                cap = _["play_11"].format(details["title"], details["duration_min"])
             elif "playlist" in url:
                 try:
                     details, plist_id = await Spotify.playlist(url)
@@ -227,31 +252,25 @@ async def play_commnd(
                 streamtype = "playlist"
                 plist_type = "spplay"
                 img = config.SPOTIFY_PLAYLIST_IMG_URL
-                cap = _["play_12"].format(
-                    message.from_user.first_name
-                )
+                cap = _["play_12"].format(app.mention, message.from_user.mention)
             elif "album" in url:
                 try:
                     details, plist_id = await Spotify.album(url)
-                except Exception:
+                except:
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
                 plist_type = "spalbum"
                 img = config.SPOTIFY_ALBUM_IMG_URL
-                cap = _["play_12"].format(
-                    message.from_user.first_name
-                )
+                cap = _["play_12"].format(app.mention, message.from_user.mention)
             elif "artist" in url:
                 try:
                     details, plist_id = await Spotify.artist(url)
-                except Exception:
+                except:
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
                 plist_type = "spartist"
                 img = config.SPOTIFY_ARTIST_IMG_URL
-                cap = _["play_12"].format(
-                    message.from_user.first_name
-                )
+                cap = _["play_12"].format(message.from_user.first_name)
             else:
                 return await mystic.edit_text(_["play_17"])
         elif await Apple.valid(url):
@@ -324,6 +343,10 @@ async def play_commnd(
                 return await mystic.edit_text(err)
             return await mystic.delete()
         else:
+            if not await is_streamable_url(url):
+                return await mystic.edit_text(
+                    "Oops i don't think that it is a streamable url"
+                )
             try:
                 await Auput.stream_call(url)
             except NoActiveGroupCall:
