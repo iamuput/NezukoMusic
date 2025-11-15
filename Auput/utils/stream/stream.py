@@ -16,6 +16,7 @@ from Auput.utils.exceptions import AssistantErr
 from Auput.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from Auput.utils.inline.playlist import close_markup
+from Auput.utils.inline.queue import aq_markup
 from Auput.utils.pastebin import AuputBin
 from Auput.utils.stream.queue import put_queue, put_queue_index
 from Auput.utils.thumbnails import gen_thumb
@@ -29,10 +30,10 @@ async def stream(
     chat_id,
     user_name,
     original_chat_id,
-    video: Union[bool, str] = None,
-    streamtype: Union[bool, str] = None,
-    spotify: Union[bool, str] = None,
-    forceplay: Union[bool, str] = None,
+    video: bool | str = None,
+    streamtype: bool | str = None,
+    spotify: bool | str = None,
+    forceplay: bool | str = None,
 ):
     if not result:
         return
@@ -161,11 +162,13 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            button = aq_markup(_, chat_id)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
@@ -215,11 +218,13 @@ async def stream(
                 "audio",
             )
             position = len(db.get(chat_id)) - 1
+            button = aq_markup(_, chat_id)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
@@ -269,11 +274,13 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            button = aq_markup(_, chat_id)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
@@ -327,11 +334,13 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            button = aq_markup(_, chat_id)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
