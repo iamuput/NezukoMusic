@@ -11,6 +11,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "")
 
+# Get your api key or buy paid plan from panel.thequickearn.xyz
+API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz')
+API_KEY = getenv("API_KEY", None)
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
