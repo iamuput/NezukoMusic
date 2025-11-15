@@ -13,10 +13,10 @@ tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (_
 tg_2 : "Failed to download the media from telegram."
 
 # Core - Call.py
-call_1 : "Bot requires **Admin** Permission to invite assistant account to your channel."
-call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
+call_1 : "<blockquote>Bot requires **Admin** Permission to invite assistant account to your channel.</blockquote>"
+call_2 : "<blockquote>Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}</blockquote>"
 call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
-call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
+call_4 : "<blockquote>Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group.</blockquote>"
 call_5 : "Assistant Account will be joining in 5 Seconds..Please Wait!"
 call_6 : "Assistant Account[{0}] Joined Successfully.\n\nStarting Music Now"
 call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
@@ -52,7 +52,7 @@ admin_13 : "Please use numeric numbers for specific tracks, like 1, 2 or 4 etc"
 admin_14 : "Atleast 2 tracks needed in queue to skip to a specific number. Check queue by /queue"
 admin_15 : "Not enough tracks in queue for the value given by you. Please choose numbers between 1 and {0}"
 admin_16 : "Failed to skip to specific track.\n\nCheck left queue by /queue"
-admin_17 : "{0}.. Please Wait"
+admin_17 : "<blockquote>**{0}.. Please Wait**</blockquote>"
 admin_18 : "Admin List Not Found\n\nPlease reload adminlist via /admincache or /reload"
 admin_19 : "You need to be admin with manage voice chat rights to perform this.\nIf you're already admin, reload admincache via /admincache "
 admin_20 : "Admin cache reloaded successfully."
@@ -75,15 +75,15 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
+start_2 : "<blockquote>**Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups.**</blockquote>"
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
-start_4 : "{0}'s Owner[{1}] has just joined your chat."
-start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
+start_4 : "<blockquote>**{0}'s Owner[{1}] has just joined your chat.**</blockquote>"
+start_5 : "<blockquote>**A member of {0}'s Sudo User[{1}] has just joined your chat.**</blockquote>"
 start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with: /"
+help_1 : "<blockquote>**Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with: /**</blockquote>"
 help_2 : "Contact me in PM for help."
 
 # Settings
@@ -142,9 +142,9 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
-play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
-play_3 : "Failed to Process Query!"
+play_1 : "<blockquote>**🔄 Processing Query... Please Wait!**</blockquote>"
+play_2 : "<blockquote>**🏷Channel Play Mode\n\n🔄 Processing Query... Please Wait!\nLinked Channel: {0}**</blockquote>"
+play_3 : "<blockquote>**Failed to Process Query!**</blockquote>"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
 play_6 : "**Duration Limit Exceeded**\n\n**Allowed Duration: **{0} minute(s)\n**Received Duration:** {1} hour(s)"
@@ -152,7 +152,7 @@ play_7 : "Sorry! Bot only allows limited number of video calls due to CPU overlo
 play_8 : "Not A Valid Video File Extension!\n\n**Supported Formats:** {0}"
 play_9 : "Video File Size Should Be Less Than 1 GiB"
 play_10 : "**Youtube Playlist Feature**\n\nSelect the Mode in which you want to play whole Youtube Playlist"
-play_11 : "📎Title: **{0}\n\n⏳Duration:** {1} Mins"
+play_11 : "<blockquote>**📎Title: **{0}\n\n**⏳Duration:** {1} Mins</blockquote>"
 play_12 : "**Spotify Play Mode**\n\nRequested By:- {0}"
 play_13 : "**Apple Playlists**\n\nRequested By:- {0}"
 play_14 : "**Unable to verify the URL.**\nBot wonders if this url belongs to any of the following platforms: Youtube, AppleMusic, Spotify, Resso and Soundcloud.\n\nYou can use /stream for M3u8 or Remote Links."
@@ -204,8 +204,8 @@ lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "❏ **Pong!**\n`╰ {1} ms`\n\n❏<b><u> System Stats:</u></b>\n├ **Uptime** : {2} \n├ **Ram** : {4} \n├ **Cpu** : {4} \n╰ **Disk** : {3}"
+ping_1 : "<blockquote>**Pong!!!!**</blockquote>"
+ping_2 : "<blockquote>**❏ **Pong!**\n`╰ {1} ms`\n\n❏<b><u> System Stats:</u></b>\n├ **Uptime** : {2} \n├ **Ram** : {4} \n├ **Cpu** : {4} \n╰ **Disk** : {3}**</blockquote>"
 
 # Song
 song_1 : "You can download Music or Video from YouTube only in private chat. Please start me in private chat."
@@ -224,22 +224,22 @@ song_11 : "Uploading Started\n\nUploading speed could be slow. Please hold on.."
 queue_1 : "Please Wait..Fetching Queue.."
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
+queue_4 : "<blockquote><b>⏳ Added to Queue at #{0}\n\n💡Title: {1}\n⏱Duration: {2}\n👤Added By: {3}</b></blockquote>"
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "📡 **Started Streaming** 💡\n\n👤**Requested By:** {0}\n🔦**Information: **[Here]({1})"
-stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
-stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
+stream_1 : "<blockquote><b>📡 Started Streaming 💡\n\n👤Requested By: {0}\n🔦Information: [Here]({1})</b></blockquote>"
+stream_2 : "<blockquote><b>📡 Started Streaming via URL  💡\n\n👤Requested By: {0}</b></blockquote>"
+stream_3 : "<blockquote><b>📡 Started Streaming 💡\n\n🏷Title: {0}\n⌛️Duration: {1}\n👤Requested By: {2}</b></blockquote>"
+stream_4 : "<blockquote><b>📡 Started Streaming 💡\n\n🏷Title: [{0}]({1})\n⌛️Duration: {2}\n👤Requested By: {3}</b></blockquote>"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
+CLOSE_BUTTON  : "ᴄʟᴏsᴇ"
+CLOSEMENU_BUTTON  : "Close Menu"
 BACK_BUTTON : "⬅ Back"
-UNBAN_BUTTON : "🗑 Unban Assistant"
+UNBAN_BUTTON : "Unban Assistant"
 
 #Lyrics
 L_B_1 : "🚀 Checkout Lyrics Now"
@@ -249,10 +249,10 @@ S_B_1 : "🗒 Commands"
 S_B_2 : "🔧 Settings"
 S_B_3 : "📨 Support"
 S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
+S_B_5 : "Add me to your Group"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_7 : "Bot Owner"
+S_B_8 : "Commands Menu."
 
 #Help 
 H_B_1 : "Admin"
@@ -260,16 +260,8 @@ H_B_2 : "Play"
 H_B_3 : "Bot"
 H_B_4 : "Extra"
 H_B_5 : "Sudo"
-H_B_6 : "Black Pink"
-H_B_7 : "GitHub"
-H_B_8 : "Info"
-H_B_9 : "Telegraph"
-H_B_10 : "Welcome"
-H_B_11 : "AFK"
-H_B_12 : "Couples"
-H_B_13 : "Carbon"
-H_B_14 : "Quotly"
-H_B_15 : "SangMata"
+H_B_6 : "TagAll"
+H_B_7 : "YT Download"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -284,7 +276,7 @@ P_B_4 : "🎵 Play Playlist"
 
 #Playlist
 PL_B_1 : "🚀 Play Playlist"
-PL_B_2 : "✚ Playlists"
+PL_B_2 : "Playlist"
 PL_B_3 : "ᴍᴇɴᴜ"
 PL_B_4 : "📡 Play Mode"
 PL_B_5 : "🔄 Del Whole Playlist"
@@ -346,13 +338,13 @@ QU_B_2 : "Played {0} out of {1} Mins"
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} is already a sudo user."
-sudo_2 : "Added **{0}** to Sudo Users." 
-sudo_3 : "Not a part of Bot's Sudo."
-sudo_4 : "Removed from Bot's Sudo User"
-sudo_5 : "⭐️<u> **Owners:**</u>\n"
-sudo_6 : "\n⭐️<u> **Sudo Users:**</u>\n"
-sudo_7 : "No Sudo Users"
+sudo_1 : "<blockquote><b><u>{0}</u> is already a sudo user.</b></blockquote>"
+sudo_2 : "<blockquote><b>Added <u>{0}</u> to Sudo Users.</b></blockquote>" 
+sudo_3 : "<blockquote>**Not a part of Bot's Sudo.**</blockquote>"
+sudo_4 : "<blockquote>**Removed from Bot's Sudo User**</blockquote>"
+sudo_5 : "<blockquote><b>⭐️<u> Owners:</u>\n</b></blockquote>"
+sudo_6 : "<blockquote><b>\n⭐️<u> Sudo Users:</u>\n</b></blockquote>"
+sudo_7 : "<blockquote>**No Sudo Users**</blockquote>"
 
 #Block
 block_1 : "{0} is already blocked from the bot."
@@ -385,9 +377,9 @@ maint_2 : "Enabled for Maintenance"
 maint_3 : "Maintenance Mode Disabled"
 
 #log
-log_1 : "**Usage:**\n/logger [enable|disable]"
-log_2 : "Enabled Logging"
-log_3 : "Logging Disabled"
+log_1 : "<blockquote>****Usage:**\n/logger [enable|disable]**</blockquote>"
+log_2 : "<blockquote>**Enabled Logging**</blockquote>"
+log_3 : "<blockquote>**Logging Disabled**</blockquote>"
 
 #videomode
 vidmode_1 : "**Usage:**\n/videomode [download|m3u8]"
@@ -395,13 +387,13 @@ vidmode_2 : "Video Play Mode set as downloader. Bot will be downloading tracks n
 vidmode_3 : "Video Play Mode set as m3u8. Bot will be play tracks live now."
 
 #broadcast
-broad_1 : "**Broadcasted Message In {0}  Chats with {1} Pins from Bot.**"
+broad_1 : "<blockquote>**Broadcasted Message In {0}  Chats with {1} Pins from Bot.**</blockquote>"
 broad_2 : "Started Assistant Broadcast..."
 broad_3 : "**Assistant Broadcast:**\n\n"
 broad_4 : "Assistant {0} Broadcasted in {1} chats\n"
 broad_5 : "**Usage**:\n/broadcast [MESSAGE] or [Reply to a Message]"
 broad_6 : "Please provide some text to broadcast."
-broad_7 : "**Broadcasted Message to {0} Users.**"
+broad_7 : "<blockquote>**Broadcasted Message to {0} Users.**</blockquote>"
 
 #Heroku
 heroku_1 : "Please make sure your Heroku API Key, Your App name are configured correctly in the heroku"
