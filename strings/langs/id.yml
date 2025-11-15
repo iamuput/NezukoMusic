@@ -1,29 +1,29 @@
 name : 🇮🇩 Indonesian
 
 # General Strings
-general_1 : "Balas pesan pengguna atau berikan nama pengguna/id_pengguna"
-general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
-general_3 : "Beberapa **pengecualian terjadi** saat memproses kueri Anda.\n\nJenis Pengecualian:- {0}"
-general_4 : "Anda adalah admin anonim di grup obrolan ini!\nKembali ke Akun Pengguna Dari Hak Admin."
-general_5 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan tindakan ini."
-general_6 : "Bot tidak streaming di voice chat."
+general_1 : "<blockquote>**Balas pesan pengguna atau berikan nama pengguna/id_pengguna**</blockquote>"
+general_2 : "<blockquote>**Kesalahan! Penggunaan Perintah yang Salah.**</blockquote>"
+general_3 : "<blockquote>**Beberapa __pengecualian terjadi__ saat memproses kueri Anda.\n\nJenis Pengecualian:- {0}**</blockquote>"
+general_4 : "<blockquote>**Anda adalah admin anonim di grup obrolan ini!\nKembali ke Akun Pengguna Dari Hak Admin.**</blockquote>"
+general_5 : "<blockquote>**Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan tindakan ini.**</blockquote>"
+general_6 : "<blockquote>**Bot tidak streaming di voice chat.**</blockquote>"
 
 # Classes - Telegram.py
-tg_1 : "Bot **kelebihan beban** dengan unduhan sekarang.\n\n**Coba Setelah:** {0} (__waktu yang diharapkan__)"
-tg_2 : "Gagal mengunduh media dari telegram."
+tg_1 : "<blockquote>**Bot kelebihan beban dengan unduhan sekarang.\n\nCoba Setelah: {0} (__waktu yang diharapkan__)**</blockquote>"
+tg_2 : "<blockquote>**Gagal mengunduh media dari telegram.**</blockquote>"
 
 # Core - Call.py
-call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke saluran Anda."
-call_2 : "Asisten diblokir di grup atau saluran Anda, harap batalkan pemblokiran.\n\n**Nama Pengguna Asisten:** @{0}\n**ID Asisten:** {1}"
-call_3 : "Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan**: {0}"
-call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** Izin untuk mengundang akun asisten ke grup obrolan Anda."
-call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
-call_6 : "Akun Asisten[{0}] Berhasil Bergabung.\n\nMulai Musik Sekarang"
-call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **BAN PENGGUNA** dari bot."
-call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari bot."
-call_9 : "**Gagal mengganti Aliran**\nSilakan gunakan /skip untuk mengganti trek lagi."
-call_10 : "Mengunduh Lagu Berikutnya dari Daftar Putar"
-call_11 : "Tolong tambahkan @{0} ke saluran Anda[ ID: {1}].\n\nBot tidak bisa mendapatkan detail Channel."
+call_1 : "<blockquote>**Bot memerlukan Izin Admin untuk mengundang akun asisten ke saluran Anda.**</blockquote>"
+call_2 : "<blockquote>**Asisten diblokir di grup atau saluran Anda, harap batalkan pemblokiran.\n\nNama Pengguna Asisten: @{0}\nID Asisten: {1}**</blockquote>"
+call_3 : "<blockquote>**Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\nAlasan: {0}**</blockquote>"
+call_4 : "<blockquote>**Bot memerlukan Undang Pengguna Melalui Tautan Izin untuk mengundang akun asisten ke grup obrolan Anda.**</blockquote>"
+call_5 : "<blockquote>**Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!**</blockquote>"
+call_6 : "<blockquote>**Akun Asisten[{0}] Berhasil Bergabung.\n\nMulai Musik Sekarang**</blockquote>"
+call_7 : "<blockquote>**Hak Admin yang Berbahaya Diberikan\n\nHarap hapus hak BAN PENGGUNA dari bot.**</blockquote>"
+call_8 : "<blockquote>**Hak Admin yang Berbahaya Diberikan\n\nHarap hapus hak TAMBAHKAN ADMIN BARU dari bot.**</blockquote>"
+call_9 : "<blockquote>**Gagal mengganti Aliran\nSilakan gunakan /skip untuk mengganti trek lagi.**</blockquote>"
+call_10 : "<blockquote>**Mengunduh Lagu Berikutnya dari Daftar Putar**</blockquote>"
+call_11 : "<blockquote>**Tolong tambahkan @{0} ke saluran Anda[ ID: {1}].\n\nBot tidak bisa mendapatkan detail Channel.**</blockquote>"
 
 # PLUGINS - Auth.py
 auth_1 : "Anda hanya dapat memiliki 20 Pengguna di Daftar Pengguna Resmi (AUL) grup Anda"
@@ -75,7 +75,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "Terima kasih telah menerima saya di {0}.\n{1} Saya Masih Berfungsi.\n\nUntuk bantuan atau bantuan apa pun, periksa Group dan Channel Support kami."
-start_2 : "Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegroupmu."
+start_2 : "<blockquote>**Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegroupmu.**</blockquote>"
 start_3 : "Selamat datang di {0}\n\nSaya memerlukan **izin admin** untuk mengundang assistant.\n\nNama Asisten:- @{1}\nID Asisten:- {2} "
 start_4 : "Pemilik {0}[{1}] baru saja bergabung dengan obrolan Anda."
 start_5 : "Woy {0}[{1}] Lu ngapain disini anjirrr..."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Diperlukan Supergroup** ️\n\nHarap ubah **grup** Anda menj
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam daftar hitam oleh Bot. Silakan minta SudoUser untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya atau bertanya di Group dukungan.\n\nSemua perintah dapat digunakan dengan: /"
+help_1 : "<blockquote>**Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya atau bertanya di Group dukungan.\n\nSemua perintah dapat digunakan dengan: /**</blockquote>"
 help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
@@ -142,8 +142,8 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Memproses permintaan anda... Harap Tunggu!"
-play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_1 : "<blockquote>**🔄 Memproses permintaan anda... Harap Tunggu!**</blockquote>"
+play_2 : "<blockquote>****🏷Mode Putar Channel**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}**</blockquote>"
 play_3 : "Gagal Memproses permintaan anda!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
@@ -152,7 +152,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang dari 1 GiB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "📎Judul: **{0}\n\n⏳Durasi:** {1} Menit"
+play_11 : "<blockquote>**📎Judul:** {0}\n\n**⏳Durasi:** {1} Menit</blockquote>"
 play_12 : "**Mode Putar Spotify**\n\nDiminta Oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta Oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda dapat menggunakan /stream untuk M3u8 atau Remote Links ."
@@ -224,21 +224,21 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 # Tools - Queue
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
-queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n⏰**Durasi:** {2}\n👤**Ditambahkan Oleh:** {3}"
+queue_3 : "<u>Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
+queue_4 : "<blockquote><b>⏳ Ditambahkan ke Antrian di #{0}\n\n💡 Judul: {1}\n⏰ Durasi: {2}\n👤 Ditambahkan Oleh: {3}</b></blockquote>"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
-stream_1 : "⚡ **Memulai Streaming** 💡\n\n👤**Diminta Oleh:** {0}\n🔦**Informasi: **[Di Sini]({1})"
-stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
-stream_3 : "⚡ **Memulai Streaming** 💡\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
-stream_4 : "⚡ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
+stream_1 : "<blockquote><b>⚡ Memulai Streaming 💡\n\n👤 Diminta Oleh: {0}\n🔦 Informasi: [Di Sini]({1})</b></blockquote>"
+stream_2 : "<blockquote><b>⚡ Memulai Streaming melalui URL \n\n👤 Diminta Oleh: {0}</b></blockquote>"
+stream_3 : "<blockquote><b>⚡ Memulai Streaming 💡\n\n🏷 Judul: {0}\n⌛️ Durasi: {1}\n👤 Diminta Oleh: {2}</b></blockquote>"
+stream_4 : "<blockquote><b>⚡ Memulai Streaming \n\n🏷 Judul: [{0}]({1})\n⌛️ Durasi: {2}\n👤 Diminta Oleh: {3}</b></blockquote>"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+CLOSE_BUTTON : "Tutup"
+CLOSEMENU_BUTTON : "Tutup Menu"
 BACK_BUTTON : "⬅ Kembali"
 UNBAN_BUTTON : "🗑 Unban Asisten"
 
@@ -252,25 +252,17 @@ S_B_3 : "👥 Group"
 S_B_4 : "⚡ Channel"
 S_B_5 : "✚ Tambahkan ke Group"
 S_B_6 : "⚡ Repository"
-S_B_7 : "👨‍💻 Pemilik Bot"
-S_B_8 : "🔎 Menu Perintah."
+S_B_7 : "Owner"
+S_B_8 : "Commands Menu"
 
 #Help 
 H_B_1 : "Admin"
 H_B_2 : "Play"
 H_B_3 : "Bot"
-H_B_4 : "Ekstra"
+H_B_4 : "Extra"
 H_B_5 : "Sudo"
-H_B_6 : "Black Pink"
-H_B_7 : "GitHub"
-H_B_8 : "Info"
-H_B_9 : "Telegraph"
-H_B_10 : "Welcome"
-H_B_11 : "AFK"
-H_B_12 : "Couples"
-H_B_13 : "Carbon"
-H_B_14 : "Quotly"
-H_B_15 : "SangMata"
+H_B_6 : "TagAll"
+H_B_7 : "YT Download"
 
 #PlayMode
 PM_B_1 : "Putar Langsung"
@@ -347,12 +339,12 @@ QU_B_2 : "Dimainkan {0} dari {1} Menit"
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} sudah menjadi pengguna sudo."
-sudo_2 : "Ditambahkan *{0}** ke Pengguna Sudo."
+sudo_1 : "<b>{0}</b> sudah menjadi pengguna sudo."
+sudo_2 : "Ditambahkan <b>{0}</b> ke Pengguna Sudo."
 sudo_3 : "Bukan bagian dari Sudo Bot."
 sudo_4 : "Dihapus dari Pengguna Sudo Bot"
-sudo_5 : "👑<u> **Boss saya:**</u>\n"
-sudo_6 : "\n👨‍🚀<u> **Ini juga sama:**</u>\n"
+sudo_5 : "👑<b><u>Boss saya:</u></b>\n"
+sudo_6 : "\n👨‍🚀<b><u>Ini juga sama:</u></b>\n"
 sudo_7 : "Tidak Ada Pengguna Sudo"
 
 #Block
