@@ -73,7 +73,7 @@ start_6 : "❗️ **Supergroup diperlukeun** ️\n\nMangga robih **group** anjeu
 start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus di-blacklist ku Bot. Punten taroskeun SudoUser kanggo ngabodaskeun obrolan heula. Cék [Sudolist ti dieu]({0})"
 
 # Help
-help_1 : "Klik tombol di handap pikeun inpo nu leuwih lengkep. Mun anjeun nyanghareupan masalah naon jeung paréntah, anjeun tiasa ngahubungan nu boga bot abdi atanapi nanya dina grup rojongan.\n\nSadaya paréntah bisa dipaké kalawan: /"
+help_1 : "<blockquote>**Klik tombol di handap pikeun inpo nu leuwih lengkep. Mun anjeun nyanghareupan masalah naon jeung paréntah, anjeun tiasa ngahubungan nu boga bot abdi atanapi nanya dina grup rojongan.\n\nSadaya paréntah bisa dipaké kalawan: /**</blockquote>"
 help_2 : "Telepon kuring di PM pikeun pitulung."
 
 # Setélan
@@ -225,10 +225,10 @@ stream_4 : "📡 **Mimitian Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**D
 # Tombol Inline
 
 #Tombol Umum
-CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+CLOSE_BUTTON : "ᴄʟᴏsᴇ"
+CLOSEMENU_BUTTON : "Close Menu"
 BACK_BUTTON : "⬅ Balik"
-UNBAN_BUTTON : "🗑 Unban Assistant"
+UNBAN_BUTTON : "Unban Assistant"
 
 #Lyrics
 L_B_1 : "🚀 Tingali Lirik "
@@ -240,26 +240,17 @@ S_B_3 : "👥 Grup"
 S_B_4 : "⚡ Channel"
 S_B_5 : "✚ Tambahkeun ka Grup"
 S_B_6 : "⚡ Repository"
-S_B_7 : "👨‍💻 Pamilik Bot"
-S_B_8 : "🔎 Menu Komando."
+S_B_7 : "Owner"
+S_B_8 : "Didieu menu na"
 
 #Tulung
 H_B_1 : "Admin"
 H_B_2 : "Play"
 H_B_3 : "Bot"
-H_B_4 : "Tambahan"
-H_B_5 : "SudoUser"
-H_B_6 : "Black Pink"
-H_B_7 : "GitHub"
-H_B_8 : "Info"
-H_B_9 : "Telegraph"
-H_B_10 : "Welcome"
-H_B_11 : "AFK"
-H_B_12 : "Couples"
-H_B_13 : "Carbon"
-H_B_14 : "Quotly"
-H_B_15 : "SangMata"
-
+H_B_4 : "Extra"
+H_B_5 : "Sudo"
+H_B_6 : "TagAll"
+H_B_7 : "YT Download"
 
 #PlayMode
 PM_B_1 : "Live Play"
