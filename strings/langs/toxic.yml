@@ -76,7 +76,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "Makasih udah make gua di {0}.\n{1} Kalo patah patah terima aja jink lu gratisan, gausah protes!.\n\nbuat nyari bantuan apa aja, periksa Group sama channel ya jing!."
-start_2 : "Halo pengguna gratisan miskin, Nama Gua {0}.\n\nGua bot streaming telegram dengan fitur berguna. Gua bisa play dari Youtube, Spotify, Resso, AppleMusic , Soundcloud .\n\nJangan ngeluh ya anjing kalo patah patah, Lo cuma gratisan! Gasuka? Pc gua @iamuput , Yang ngeluh botnya patah patah, bikin bot sendiri aja memek!"
+start_2 : "<blockquote>**Halo pengguna gratisan miskin, Nama Gua {0}.\n\nGua bot streaming telegram dengan fitur berguna. Gua bisa play dari Youtube, Spotify, Resso, AppleMusic , Soundcloud .\n\nJangan ngeluh ya anjing kalo patah patah, Lo cuma gratisan! Gasuka? Pc gua @iamuput , Yang ngeluh botnya patah patah, bikin bot sendiri aja memek!**</blockquote>"
 start_3 : "Welcome jink {0}\n\nGua gabutuh **izin admin** Buat kerja ( sampe diminta ya jink ).\n\nNama Asisstant:- @{1}\nID Asisten:- {2} "
 start_4 : "Owner Ganteng gua {0}[{1}] baru aja gabung ke group ini, Sambut lah anjg!"
 start_5 : "Bawahannya owner {0}[{1}] baru aja gabung ke gc ini, sambut mek! "
@@ -84,7 +84,7 @@ start_6 : "❗️ **Diperlukan Supergroup** ️\n\nUbah **grup** lu jadi **grup 
 start_7 : "**Gc Diblacklist mampus**\n\nMampus GC lu diblacklist sama Owner/Sudo!!. Coba lu tanya ke mereka kenapa gc lu di blacklist, disini : [Sudolist]({0})"
 
 # Help
-help_1 : "Klik tombol dibawah jink kalo mau tau informasi lebih. Kalo lo Dapet bug atau Lo ga ngerti tanya ke @iamuput atau lo tanya di Group @UputtSupport.\n\nPerintah dimulai pake : /"
+help_1 : "<blockquote>**Klik tombol dibawah jink kalo mau tau informasi lebih. Kalo lo Dapet bug atau Lo ga ngerti tanya ke @iamuput atau lo tanya di Group @UputtSupport.\n\nPerintah dimulai pake : /**</blockquote>"
 help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
@@ -153,7 +153,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File video kegedean tolol, max 1 GiB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "📎Judul: **{0}\n\n⏳Durasi:** {1} Menit"
+play_11 : "<blockquote>**📎Judul:**{0}\n\n**⏳Durasi:** {1} Menit</blockquote>"
 play_12 : "**Mode Putar Spotify**\n\nDiReq Oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiReq Oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda dapat menggunakan /stream untuk M3u8 atau Remote Links ."
@@ -226,22 +226,22 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Tunggu bentar jink..Lagi berusaha ambil antrian, tunggu ya anjg gausah marah marah..."
 queue_2 : "Kosong anjg. Ga ada antriannya!"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ ditambahin ke antrian ya anjing **#{0}\n\n💿Judul:** {1}\n⏰**Durasi:** {2}\n👤**Ditambahkan Oleh:** {3}"
+queue_4 : "<blockquote><b>⏳ Ditambahin ke antrian ya anjing #{0}\n\n💿Judul: {1}\n⏰Durasi: {2}\n👤Ditambahkan Oleh: {3}</b></blockquote>"
 queue_5 : "Cuma satu lagi memek, Tambahin lagunya lagi tolol"
 
 # All Streaming Lines
-stream_1 : "☠️ **Memulai Streaming** 💿\n\n👤**Diminta Oleh:** {0}\n🔍**Informasi: **[Di Sini]({1})"
-stream_2 : "☠️ **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
-stream_3 : "☠️ **Memulai Streaming** 💿\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
-stream_4 : "☠️ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
+stream_1 : "<blockquote><b>☠️ Memulai Streaming 💿\n\n👤 Diminta Oleh: {0}\n🔍 Informasi: [Di Sini]({1})</b></blockquote>"
+stream_2 : "<blockquote><b>☠️ Memulai Streaming melalui URL\n\n👤 Diminta Oleh: {0}</b></blockquote>"
+stream_3 : "<blockquote><b>☠️ Memulai Streaming 💿\n\n🏷 Judul: {0}\n⌛️ Durasi: {1}\n👤 Diminta Oleh: {2}</b></blockquote>"
+stream_4 : "<blockquote><b>☠️ Memulai Streaming \n\n🏷 Judul: [{0}]({1})\n⌛️ Durasi: {2}\n👤Diminta Oleh: {3}</b></blockquote>"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+CLOSE_BUTTON : "Close"
+CLOSEMENU_BUTTON : "Close Menu"
 BACK_BUTTON : "⬅ Balik"
-UNBAN_BUTTON : "🗑 Unban Asisten"
+UNBAN_BUTTON : "Unban Asisten"
 
 #Lyrics
 L_B_1 : "🚀 Liat lirik"
@@ -260,18 +260,10 @@ S_B_8 : "🔎 Menu Perintah."
 H_B_1 : "Admin"
 H_B_2 : "Play"
 H_B_3 : "Bot"
-H_B_4 : "Ekstra"
-H_B_5 : "SudoUser"
-H_B_6 : "Black Pink"
-H_B_7 : "GitHub"
-H_B_8 : "Info"
-H_B_9 : "Telegraph"
-H_B_10 : "Welcome"
-H_B_11 : "AFK"
-H_B_12 : "Couples"
-H_B_13 : "Carbon"
-H_B_14 : "Quotly"
-H_B_15 : "SangMata"
+H_B_4 : "Extra"
+H_B_5 : "Sudo"
+H_B_6 : "TagAll"
+H_B_7 : "YT Download"
 
 #PlayMode
 PM_B_1 : "Putar Langsung"
@@ -352,8 +344,8 @@ sudo_1 : "{0} Cie dapet sudo."
 sudo_2 : "Dah ditambahin *{0}** ke Pengguna Sudo."
 sudo_3 : "Bukan bagian dari Sudo Bot."
 sudo_4 : "Dihapus dari Pengguna Sudo Bot"
-sudo_5 : "👑<u> **Owner Ganteng:**</u>\n"
-sudo_6 : "\n👨‍🚀<u> **Bansur Owner:**</u>\n"
+sudo_5 : "👑<u><b>Owner Ganteng:</b></u>\n"
+sudo_6 : "\n👨‍🚀<u><b>Bansur Owner:</b></u>\n"
 sudo_7 : "Ga ada Sudo"
 
 #Block
