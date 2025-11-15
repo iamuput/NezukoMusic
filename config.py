@@ -20,7 +20,7 @@ VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Iamuput")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "HikariOwner")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "NezukoMusicRobot")
 
@@ -45,7 +45,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ISI GOBLOK GAUSA BEGO² AMAT")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1843616228").split())
+    map(int, getenv("OWNER_ID", "6925466087").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -66,7 +66,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Flukosaa")
+    "SUPPORT_CHANNEL", "https://t.me/WarungHikari")
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/UputtSupport")
 
@@ -164,11 +164,11 @@ PING_IMG_URL = "https://telegra.ph//file/e14488acaa70ae35d2506.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/3eff421d3f121d69dd32d-da19b02c59de12f641.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3eff421d3f121d69dd32d-da19b02c59de12f641.jpg"
 STREAM_IMG_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/3eff421d3f121d69dd32d-da19b02c59de12f641.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
