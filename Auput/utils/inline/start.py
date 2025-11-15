@@ -10,11 +10,11 @@ def start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"],
-                url=f"https://t.me/{app.username}?start=help",
+                text=_["S_B_2"], callback_data="settings_helper"
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"], callback_data="settings_helper"
+                text=_["S_B_1"],
+                url=f"https://t.me/{app.username}?start=help",
             ),
         ],
     ]
@@ -46,7 +46,13 @@ def start_pannel(_):
                     )
                 ]
             )
+    buttons.append(
+        [
+            InlineKeyboardButton(text="🤖 Order Userbot", url="https://t.me/HikariOwner"),
+        ]
+                  )
     return buttons
+
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
