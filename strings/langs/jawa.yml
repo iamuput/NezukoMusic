@@ -85,7 +85,7 @@ start_6 : "❗️ **Supergroup dibutuhake** ️\n\nTulung ganti **grup** sampeya
 start_7 : "**Obrolan sing Kasedhiya Ireng**\n\nObrolan sampeyan wis didaftar ireng dening Bot. Mangga njaluk SudoUser kanggo daftar putih dhisik. Priksa [Sudolist saka kene]({0})"
 
 # Tulung
-help_1 : "Klik tombol ing ngisor iki kanggo informasi luwih lengkap. Yen sampeyan ngadhepi masalah karo printah, sampeyan bisa hubungi pemilik bot utawa takon ing grup dhukungan.\n\nKabeh printah bisa digunakake karo: /"
+help_1 : "<blockquote>**Klik tombol ing ngisor iki kanggo informasi luwih lengkap. Yen sampeyan ngadhepi masalah karo printah, sampeyan bisa hubungi pemilik bot utawa takon ing grup dhukungan.\n\nKabeh printah bisa digunakake karo: /**</blockquote>"
 help_2 : "Telpon kula ing PM kanggo bantuan."
 
 # Setelan
@@ -239,10 +239,10 @@ stream_4 : "📡 **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Du
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+CLOSE_BUTTON : "ᴄʟᴏsᴇ"
+CLOSEMENU_BUTTON : "Close Menu"
 BACK_BUTTON : "⬅ Mbalik"
-UNBAN_BUTTON : "🗑 Unban Assistant"
+UNBAN_BUTTON : "Unban Assistant"
 
 #Lyrics
 L_B_1 : "🚀 Deleng Lirik Saiki"
@@ -254,25 +254,17 @@ S_B_3 : "👥 Grup"
 S_B_4 : "⚡ Saluran"
 S_B_5 : "✚ Tambah menyang Grup"
 S_B_6 : "⚡ Repositori"
-S_B_7 : "👨‍💻 Pemilik Bot"
-S_B_8 : "🔎 Menu Komando."
+S_B_7 : "Owner"
+S_B_8 : "Iki menu e"
 
 #Help 
 H_B_1 : "Admin"
 H_B_2 : "Play"
 H_B_3 : "Bot"
-H_B_4 : "Ekstra"
+H_B_4 : "Extra"
 H_B_5 : "Sudo"
-H_B_6 : "Black Pink"
-H_B_7 : "GitHub"
-H_B_8 : "Info"
-H_B_9 : "Telegraph"
-H_B_10 : "Welcome"
-H_B_11 : "AFK"
-H_B_12 : "Couples"
-H_B_13 : "Carbon"
-H_B_14 : "Quotly"
-H_B_15 : "SangMata"
+H_B_6 : "TagAll"
+H_B_7 : "YT Download"
 
 #PlayMode
 PM_B_1 : "Putar Langsung"
